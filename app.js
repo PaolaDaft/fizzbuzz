@@ -1,4 +1,4 @@
-const fs = require("fs"); //The Node.js fs module
+const fs = require("fs"); //The Node.js module filesystem(fs)
 
 // Part 1 Read json file ===========================
 const rawdata = fs.readFileSync("explorers.json");
