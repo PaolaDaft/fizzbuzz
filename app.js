@@ -1,8 +1,8 @@
-const fs = require("fs");
+const fs = require("fs"); //The Node.js fs module
 
 // Part 1 Read json file ===========================
 const rawdata = fs.readFileSync("explorers.json");
-const explorers = JSON.parse(rawdata);
+const explorers = JSON.parse(rawdata); //Parse the data with JSON.parse(), and the data becomes a JavaScript object.
 
 // Part 2: Get the quantity of explorers names in node
 const explorersInNode = explorers.filter((explorer) => explorer.mission == "node");
