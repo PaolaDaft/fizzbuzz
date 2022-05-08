@@ -11,13 +11,13 @@ describe('Unit Tests for ExplorerService class', () => {
         })
     });
 
-    /**test('2) Use the method getAmountOfExplorersByMission()jet', () => {
+    test('2) Use the method getAmountOfExplorersByMission()jet', () => {
         const explorers = Reader.readJsonFile("explorers.json");
         const explorersInNodeMission = ExplorerService.getAmountOfExplorersByMission(explorers, "node");
         expect(explorersInNodeMission).toEqual(10)
     });
 
-    test('3) Use the method getExplorersUsernamesByMission()', () => {
+    /**test('3) Use the method getExplorersUsernamesByMission()', () => {
         const explorers = Reader.readJsonFile("explorers.json");
         const explorersInNodeMission = ExplorerService.getExplorersUsernamesByMission(explorers, "node");
 
