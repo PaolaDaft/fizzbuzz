@@ -17,11 +17,11 @@ describe('Unit Tests for ExplorerService class', () => {
         expect(explorersInNodeMission).toEqual(10)
     });
 
-    /**test('3) Use the method getExplorersUsernamesByMission()', () => {
+    test('3) Use the method getExplorersUsernamesByMission()', () => {
         const explorers = Reader.readJsonFile("explorers.json");
         const explorersInNodeMission = ExplorerService.getExplorersUsernamesByMission(explorers, "node");
 
         expect(explorersInNodeMission).toEqual(['ajolonauta1', 'ajolonauta2', 'ajolonauta3', 'ajolonauta4', 'ajolonauta5',
             'ajolonauta11', 'ajolonauta12', 'ajolonauta13', 'ajolonauta14', 'ajolonauta15'])
-    });*/
+    });
 })
